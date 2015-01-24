@@ -1,0 +1,5 @@
+# Allow or not the break of blocks when the explosion occurs
+breakBlocks: false
+
+# The size of the explosion (Could be buggy)
+explosionsize: 20
