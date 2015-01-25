@@ -4,7 +4,6 @@ namespace ExplosiveProjectiles;
 
 use pocketmine\entity\Arrow;
 use pocketmine\entity\Snowball;
-use pocketmine\event\entity\EntityShootBowEvent;
 use pocketmine\event\entity\ProjectileHitEvent;
 use pocketmine\event\entity\ProjectileLaunchEvent;
 use pocketmine\event\Listener;
@@ -28,16 +27,6 @@ class EventHandler implements Listener{
     }
 
     private $canExplode = [];
-
-    /**
-     * @param EntityShootBowEvent $event
-     */
-    /*public function onShootArrow(EntityShootBowEvent $event){
-        $entity = $event->getEntity();
-        if($entity instanceof Player && $entity->hasPermission("explosiveprojectiles.arrows") && $this->plugin->areExplosiveArrows($entity)){
-            $this->canExplode[] = $event->getProjectile()->getId();
-        }
-    }*/
 
     /**
      * @param ProjectileLaunchEvent $event
