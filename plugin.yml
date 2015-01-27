@@ -10,7 +10,7 @@ permissions:
     default: op
     description: "Access to all the features!"
     children:
-      explosiveprojectiles.commad:
+      explosiveprojectiles.command:
         default: op
         description: "Enable or Disable explosive projectiles for you"
       explosiveprojectiles.arrows:
