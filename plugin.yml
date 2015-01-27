@@ -15,4 +15,4 @@ permissions:
         description: "Enable or Disable explosive projectiles for you"
       explosiveprojectiles.arrows:
         default: op
-        descriptiom: "Explosive Arrows!"
+        description: "Explosive Arrows!"
