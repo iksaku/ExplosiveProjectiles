@@ -16,6 +16,6 @@ permissions:
       explosiveprojectiles.arrows:
         default: op
         description: "Explosive Arrows!"
-      explosiveprojectiles.snowballs
+      explosiveprojectiles.snowballs:
         default: op
         description: "Explosive Snowballs!"
