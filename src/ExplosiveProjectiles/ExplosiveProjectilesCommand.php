@@ -13,7 +13,7 @@ class ExplosiveProjectilesCommand extends Command implements PluginIdentifiableC
     private $plugin;
 
     public function __construct(Loader $plugin){
-        parent::__construct("explosiveprojectiles", "Enable or disable explosive projectiles just for you!", "/explosiveprojectiles <arrows> <on|off>", ["explosivep", "eprojectiles", "expr"]);
+        parent::__construct("explosiveprojectiles", "Enable or disable explosive projectiles just for you!", "/explosiveprojectiles <arrows|snowballs> <on|off>", ["explosivep", "eprojectiles", "expr"]);
         $this->setPermission("explosiveprojectiles.command");
         $this->plugin = $plugin;
     }
