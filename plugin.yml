@@ -3,7 +3,7 @@ main: ExplosiveProjectiles\Loader
 version: 1.0.0
 api: 1.9.0
 author: iksaku
-# website: https://github.com/iksaku/ExplosiveProjectiles
+website: https://github.com/iksaku/ExplosiveProjectiles
 
 permissions:
   explosiveprojectiles:
